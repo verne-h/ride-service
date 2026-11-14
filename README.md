@@ -44,3 +44,16 @@ I would persist rides, offers, and tried-driver history in a shared database, an
 I would move dispatch and offer timeouts to a durable queue or database-backed worker so jobs can be retried or recovered after a process failure. Then I would run the instances behind a load balancer with health checks, graceful shutdown, and centralized logging and metrics. Sticky sessions would not solve the shared-state problem.
 
 Finally, I would add request idempotency to `POST /rides` so client retries do not create duplicate rides. The existing UUID-based ride and offer IDs are already suitable for multiple instances.
+
+## With more time
+
+Given more time I would implement the optional extras from the instructions pdf:
+- Support live locations: Let drivers update their location and availability so matching doesn’t rely on a startup snapshot.
+- Add real-time notifications: Use Server-Sent Events or WebSockets to reduce reliance on polling.
+
+I would also focus on the following improvements:
+- Expand testing: Add focused tests for matching, ETA and freshness boundaries, invalid requests, and competing actions; use a controllable clock for reliable timeout tests.
+- State handling: Centralize and test ride and offer transitions to make cancellation, timeouts, and responses easier to reason about.
+- Operations: Add structured logs and metrics, and define cleanup or retention for completed rides and offer data.
+- Improve API security and documentation: Add authentication, authorization, request validation, and OpenAPI documentation.
+- Production scaling: Use shared durable storage and atomic updates across instances, plus a durable queue for dispatch work.
