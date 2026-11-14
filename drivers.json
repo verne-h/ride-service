@@ -1,0 +1,650 @@
+{
+  "snapshot_time": "2026-11-10T15:00:00Z",
+  "drivers": [
+    {
+      "id": "drv_001",
+      "name": "Ana",
+      "status": "offline",
+      "location": {
+        "lat": 48.382247,
+        "lng": -89.2477
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.8,
+      "acceptance_rate": 0.9,
+      "last_location_update": "2026-11-10T14:59:55Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_002",
+      "name": "Luis",
+      "status": "available",
+      "location": {
+        "lat": 48.3809,
+        "lng": -89.244319
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.7,
+      "acceptance_rate": 0.85,
+      "last_location_update": "2026-11-10T14:50:00Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_003",
+      "name": "Marta",
+      "status": "available",
+      "location": {
+        "lat": 48.378205,
+        "lng": -89.2477
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "xl",
+      "rating": 4.6,
+      "acceptance_rate": 0.8,
+      "last_location_update": "2026-11-10T14:59:52Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_004",
+      "name": "Carlos",
+      "status": "available",
+      "location": {
+        "lat": 48.388985,
+        "lng": -89.2477
+      },
+      "heading_deg": 180,
+      "speed_kmh": 22,
+      "vehicle_type": "economy",
+      "rating": 4.2,
+      "acceptance_rate": 0.55,
+      "last_location_update": "2026-11-10T14:59:48Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_005",
+      "name": "Sofia",
+      "status": "on_trip",
+      "location": {
+        "lat": 48.365629,
+        "lng": -89.270693
+      },
+      "heading_deg": 45,
+      "speed_kmh": 38,
+      "vehicle_type": "economy",
+      "rating": 4.0,
+      "acceptance_rate": 0.4,
+      "last_location_update": "2026-11-10T14:59:54Z",
+      "current_trip": {
+        "dropoff": {
+          "lat": 48.379642,
+          "lng": -89.249594
+        },
+        "eta_to_dropoff_seconds": 45
+      }
+    },
+    {
+      "id": "drv_006",
+      "name": "Diego",
+      "status": "available",
+      "location": {
+        "lat": 48.3809,
+        "lng": -89.265283
+      },
+      "heading_deg": 90,
+      "speed_kmh": 30,
+      "vehicle_type": "economy",
+      "rating": 4.95,
+      "acceptance_rate": 0.98,
+      "last_location_update": "2026-11-10T14:59:56Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_007",
+      "name": "Elena",
+      "status": "on_trip",
+      "location": {
+        "lat": 48.403358,
+        "lng": -89.213887
+      },
+      "heading_deg": 200,
+      "speed_kmh": 35,
+      "vehicle_type": "economy",
+      "rating": 4.9,
+      "acceptance_rate": 0.9,
+      "last_location_update": "2026-11-10T14:59:53Z",
+      "current_trip": {
+        "dropoff": {
+          "lat": 48.381798,
+          "lng": -89.246347
+        },
+        "eta_to_dropoff_seconds": 900
+      }
+    },
+    {
+      "id": "drv_008",
+      "name": "Pablo",
+      "status": "available",
+      "location": {
+        "lat": 48.416832,
+        "lng": -89.22065
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.7,
+      "acceptance_rate": 0.8,
+      "last_location_update": "2026-11-10T14:59:51Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_009",
+      "name": "Lucia",
+      "status": "available",
+      "location": {
+        "lat": 48.398866,
+        "lng": -89.22065
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.7,
+      "acceptance_rate": 0.8,
+      "last_location_update": "2026-11-10T14:59:51Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_010",
+      "name": "Mateo",
+      "status": "available",
+      "location": {
+        "lat": 148.3811,
+        "lng": -89.247
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.9,
+      "acceptance_rate": 0.95,
+      "last_location_update": "2026-11-10T14:59:57Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_011",
+      "name": "Irene",
+      "status": "available",
+      "location": null,
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.8,
+      "acceptance_rate": 0.9,
+      "last_location_update": "2026-11-10T14:59:55Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_012",
+      "name": "Hugo",
+      "status": "available",
+      "location": {
+        "lat": 48.379798,
+        "lng": -89.278933
+      },
+      "heading_deg": 44,
+      "speed_kmh": 42,
+      "vehicle_type": "xl",
+      "rating": 3.72,
+      "acceptance_rate": 0.78,
+      "last_location_update": "2026-11-10T14:59:25Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_013",
+      "name": "Nora",
+      "status": "available",
+      "location": {
+        "lat": 48.384049,
+        "lng": -89.223949
+      },
+      "heading_deg": 214,
+      "speed_kmh": 29,
+      "vehicle_type": "economy",
+      "rating": 3.84,
+      "acceptance_rate": 0.74,
+      "last_location_update": "2026-11-10T14:59:25Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_014",
+      "name": "Ivan",
+      "status": "available",
+      "location": {
+        "lat": 48.398502,
+        "lng": -89.315342
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.44,
+      "acceptance_rate": 0.6,
+      "last_location_update": "2026-11-10T14:59:50Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_015",
+      "name": "Clara",
+      "status": "available",
+      "location": {
+        "lat": 48.344973,
+        "lng": -89.158292
+      },
+      "heading_deg": 235,
+      "speed_kmh": 49,
+      "vehicle_type": "economy",
+      "rating": 4.62,
+      "acceptance_rate": 0.72,
+      "last_location_update": "2026-11-10T14:59:57Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_016",
+      "name": "Oscar",
+      "status": "available",
+      "location": {
+        "lat": 48.330085,
+        "lng": -89.174516
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.34,
+      "acceptance_rate": 0.84,
+      "last_location_update": "2026-11-10T14:59:23Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_017",
+      "name": "Paula",
+      "status": "available",
+      "location": {
+        "lat": 48.433521,
+        "lng": -89.224237
+      },
+      "heading_deg": 194,
+      "speed_kmh": 32,
+      "vehicle_type": "economy",
+      "rating": 3.7,
+      "acceptance_rate": 0.55,
+      "last_location_update": "2026-11-10T14:59:53Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_018",
+      "name": "Raul",
+      "status": "available",
+      "location": {
+        "lat": 48.347266,
+        "lng": -89.190139
+      },
+      "heading_deg": 311,
+      "speed_kmh": 25,
+      "vehicle_type": "comfort",
+      "rating": 3.92,
+      "acceptance_rate": 0.87,
+      "last_location_update": "2026-11-10T14:59:55Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_019",
+      "name": "Sara",
+      "status": "available",
+      "location": {
+        "lat": 48.41004,
+        "lng": -89.175185
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.37,
+      "acceptance_rate": 0.7,
+      "last_location_update": "2026-11-10T14:59:39Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_020",
+      "name": "Tomas",
+      "status": "available",
+      "location": {
+        "lat": 48.407883,
+        "lng": -89.239393
+      },
+      "heading_deg": 108,
+      "speed_kmh": 46,
+      "vehicle_type": "economy",
+      "rating": 3.85,
+      "acceptance_rate": 0.87,
+      "last_location_update": "2026-11-10T14:59:25Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_021",
+      "name": "Vera",
+      "status": "available",
+      "location": {
+        "lat": 48.340225,
+        "lng": -89.324489
+      },
+      "heading_deg": 219,
+      "speed_kmh": 40,
+      "vehicle_type": "comfort",
+      "rating": 4.49,
+      "acceptance_rate": 0.69,
+      "last_location_update": "2026-11-10T14:59:22Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_022",
+      "name": "Bruno",
+      "status": "available",
+      "location": {
+        "lat": 48.407879,
+        "lng": -89.248329
+      },
+      "heading_deg": 348,
+      "speed_kmh": 42,
+      "vehicle_type": "economy",
+      "rating": 3.66,
+      "acceptance_rate": 0.5,
+      "last_location_update": "2026-11-10T14:59:49Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_023",
+      "name": "Celia",
+      "status": "offline",
+      "location": {
+        "lat": 48.367635,
+        "lng": -89.229324
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.23,
+      "acceptance_rate": 0.89,
+      "last_location_update": "2026-11-10T14:59:59Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_024",
+      "name": "Dario",
+      "status": "available",
+      "location": {
+        "lat": 48.357682,
+        "lng": -89.32411
+      },
+      "heading_deg": 80,
+      "speed_kmh": 44,
+      "vehicle_type": "xl",
+      "rating": 4.37,
+      "acceptance_rate": 0.5,
+      "last_location_update": "2026-11-10T14:59:32Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_025",
+      "name": "Eva",
+      "status": "available",
+      "location": {
+        "lat": 48.4301,
+        "lng": -89.320987
+      },
+      "heading_deg": 327,
+      "speed_kmh": 47,
+      "vehicle_type": "economy",
+      "rating": 3.81,
+      "acceptance_rate": 0.86,
+      "last_location_update": "2026-11-10T14:59:40Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_026",
+      "name": "Felix",
+      "status": "available",
+      "location": {
+        "lat": 48.362775,
+        "lng": -89.220036
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.71,
+      "acceptance_rate": 0.86,
+      "last_location_update": "2026-11-10T14:59:21Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_027",
+      "name": "Gloria",
+      "status": "available",
+      "location": {
+        "lat": 48.413299,
+        "lng": -89.206371
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.57,
+      "acceptance_rate": 0.56,
+      "last_location_update": "2026-11-10T14:59:44Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_028",
+      "name": "Hector",
+      "status": "available",
+      "location": {
+        "lat": 48.439988,
+        "lng": -89.194593
+      },
+      "heading_deg": 337,
+      "speed_kmh": 45,
+      "vehicle_type": "comfort",
+      "rating": 4.51,
+      "acceptance_rate": 0.79,
+      "last_location_update": "2026-11-10T14:59:51Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_029",
+      "name": "Ines",
+      "status": "on_trip",
+      "location": {
+        "lat": 48.357393,
+        "lng": -89.253917
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.08,
+      "acceptance_rate": 0.75,
+      "last_location_update": "2026-11-10T14:59:36Z",
+      "current_trip": {
+        "dropoff": {
+          "lat": 48.45194,
+          "lng": -89.298926
+        },
+        "eta_to_dropoff_seconds": 471
+      }
+    },
+    {
+      "id": "drv_030",
+      "name": "Javier",
+      "status": "available",
+      "location": {
+        "lat": 48.317853,
+        "lng": -89.217834
+      },
+      "heading_deg": 112,
+      "speed_kmh": 15,
+      "vehicle_type": "comfort",
+      "rating": 3.63,
+      "acceptance_rate": 0.7,
+      "last_location_update": "2026-11-10T14:59:22Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_031",
+      "name": "Karla",
+      "status": "available",
+      "location": {
+        "lat": 48.432243,
+        "lng": -89.217724
+      },
+      "heading_deg": 342,
+      "speed_kmh": 46,
+      "vehicle_type": "economy",
+      "rating": 4.0,
+      "acceptance_rate": 0.68,
+      "last_location_update": "2026-11-10T14:59:42Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_032",
+      "name": "Leo",
+      "status": "offline",
+      "location": {
+        "lat": 48.373338,
+        "lng": -89.315062
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.29,
+      "acceptance_rate": 0.56,
+      "last_location_update": "2026-11-10T14:59:29Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_033",
+      "name": "Mila",
+      "status": "available",
+      "location": {
+        "lat": 48.346173,
+        "lng": -89.220468
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.41,
+      "acceptance_rate": 0.89,
+      "last_location_update": "2026-11-10T14:59:53Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_034",
+      "name": "Nico",
+      "status": "offline",
+      "location": {
+        "lat": 48.360935,
+        "lng": -89.19987
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 3.9,
+      "acceptance_rate": 0.54,
+      "last_location_update": "2026-11-10T14:59:31Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_035",
+      "name": "Olga",
+      "status": "available",
+      "location": {
+        "lat": 48.374009,
+        "lng": -89.190474
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "economy",
+      "rating": 4.13,
+      "acceptance_rate": 0.84,
+      "last_location_update": "2026-11-10T14:59:24Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_036",
+      "name": "Pedro",
+      "status": "on_trip",
+      "location": {
+        "lat": 48.398181,
+        "lng": -89.247817
+      },
+      "heading_deg": 30,
+      "speed_kmh": 25,
+      "vehicle_type": "economy",
+      "rating": 4.18,
+      "acceptance_rate": 0.55,
+      "last_location_update": "2026-11-10T14:59:34Z",
+      "current_trip": {
+        "dropoff": {
+          "lat": 48.451629,
+          "lng": -89.300813
+        },
+        "eta_to_dropoff_seconds": 544
+      }
+    },
+    {
+      "id": "drv_037",
+      "name": "Rosa",
+      "status": "offline",
+      "location": {
+        "lat": 48.369706,
+        "lng": -89.233832
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "comfort",
+      "rating": 4.54,
+      "acceptance_rate": 0.58,
+      "last_location_update": "2026-11-10T14:59:24Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_038",
+      "name": "Samuel",
+      "status": "available",
+      "location": {
+        "lat": 48.412253,
+        "lng": -89.178429
+      },
+      "heading_deg": null,
+      "speed_kmh": 0,
+      "vehicle_type": "xl",
+      "rating": 4.3,
+      "acceptance_rate": 0.69,
+      "last_location_update": "2026-11-10T14:59:39Z",
+      "current_trip": null
+    },
+    {
+      "id": "drv_020",
+      "name": "Tomas",
+      "status": "available",
+      "location": {
+        "lat": 48.4095,
+        "lng": -89.241017
+      },
+      "heading_deg": 108,
+      "speed_kmh": 46,
+      "vehicle_type": "economy",
+      "rating": 3.85,
+      "acceptance_rate": 0.87,
+      "last_location_update": "2026-11-10T14:59:55Z",
+      "current_trip": null
+    }
+  ]
+}

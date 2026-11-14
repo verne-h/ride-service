@@ -1,0 +1,11 @@
+{
+  "strategy": "fastest_eta",
+  "avg_speed_kmh": 30,
+  "route_factor": 1.3,
+  "max_pickup_eta_seconds": 600,
+  "location_max_age_seconds": 60,
+  "allow_on_trip_drivers": true,
+  "max_remaining_trip_seconds": 300,
+  "offer_timeout_seconds": 15,
+  "max_offer_attempts": 3
+}
