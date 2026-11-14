@@ -34,3 +34,13 @@ Matching offers one driver at a time. An open offer reserves its driver across r
 ## Input data quality
 
 Malformed driver entries are excluded individually rather than preventing startup; their IDs and exclusion reasons are available from the candidate debug endpoint. Valid duplicate IDs retain the record with the newest `last_location_update`; other duplicates are excluded. A tie keeps the first record for deterministic behavior. Driver record validation checks the fields needed for matching, coordinate ranges, status/trip consistency, and timestamps. Locations later than the dataset snapshot are treated as invalid.
+
+## What I would change if running several copies in production
+
+Before running multiple copies in production, I would replace the in-memory state with shared, durable storage. Each process currently keeps rides, offers, and driver reservations in local memory, so requests routed to different instances can see inconsistent state, and a restart loses it.
+
+I would persist rides, offers, and tried-driver history in a shared database, and use transactions or conditional updates to ensure only one instance can reserve a driver or accept an offer at a time. Driver availability and locations should also come from a shared, regularly updated source rather than a snapshot loaded only at startup.
+
+I would move dispatch and offer timeouts to a durable queue or database-backed worker so jobs can be retried or recovered after a process failure. Then I would run the instances behind a load balancer with health checks, graceful shutdown, and centralized logging and metrics. Sticky sessions would not solve the shared-state problem.
+
+Finally, I would add request idempotency to `POST /rides` so client retries do not create duplicate rides. The existing UUID-based ride and offer IDs are already suitable for multiple instances.
