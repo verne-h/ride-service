@@ -6,10 +6,10 @@ A small in-memory Node.js, TypeScript, and Express API. Driver data and configur
 
 ```sh
 npm install
-npm run dev
+npm start
 ```
 
-The service listens on port `3000` by default; set `PORT` to change it. Run `npm test` for the focused tests and `npm run build` to type-check and emit JavaScript into `dist/`.
+`npm start` builds the TypeScript service and starts it. For watch-mode development, use `npm run dev`. The service listens on port `3000` by default; set `PORT` to change it. Run `npm test` for the focused tests or `npm run build` to build without starting the service.
 
 ## API
 
